@@ -1,5 +1,7 @@
 /* Reset */
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -245,4 +247,35 @@ p {
   float: left;
   margin-right: 20px;
   border-radius: 50%;
+}
+
+/* Contact Us Page */
+
+#contact-form {
+  padding: 20px 0;
+}
+
+#contact-form h1 {
+  font-size: 32px;
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#contact-info {
+  display: inline-block;
+  width: 100%;
+
 }
