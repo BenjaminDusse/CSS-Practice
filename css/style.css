@@ -252,7 +252,7 @@ p {
 /* Contact Us Page */
 
 #contact-form {
-  padding: 20px 0;
+  padding: 68px 0;
 }
 
 #contact-form h1 {
@@ -277,5 +277,4 @@ p {
 #contact-info {
   display: inline-block;
   width: 100%;
-
 }
